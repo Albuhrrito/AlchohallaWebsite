@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+body {
+    background-image: url("Images/alcohallabackgroundbright.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: right;
+    margin-top: 1vw;
+}
+
+li a {
+    min-width: 1vw;
+    letter-spacing: 3px;
+    font-size: 1.3vw;
+    margin: 0.5vw;
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    margin-right: 4vw;
+
+}
+
+
+
+.title {
+    font-size: 1.5vw;
+    letter-spacing: 10px;
+    position: absolute;
+    left: 50%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+}
+
+.titleA {
+    font-size: 8vw;
+    letter-spacing: 10px;
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.titleH {
+    font-size: 8vw;
+    letter-spacing: 10px;
+    position: absolute;
+    left: 73%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 480px) {
+    li a {
+        font-size: 2.5vw;
+    }
+
+    .title {
+        top: 20%;
+        font-size: 3vw;
+    }
+
+    .titleA {
+        left: 33%;
+        top: 25%;
+    }
+
+    .titleH {
+        left: 68%;
+        top: 25%;
+    }
+}
